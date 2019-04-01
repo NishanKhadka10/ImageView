@@ -3,50 +3,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
- <RadioGroup
-     android:layout_width="match_parent"
-     android:layout_height="match_parent">
 
-     <LinearLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:orientation="horizontal">
+         <RadioGroup
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal">
 
          <RadioButton
-             android:id="@+id/rbanmol"
+             android:id="@+id/rdoanmol"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:layout_weight="1"
              android:text="Anmol"/>
 
          <RadioButton
-             android:id="@+id/rbpal"
+             android:id="@+id/rdopal"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:layout_weight="1"
              android:text="Pal"/>
 
          <RadioButton
-             android:id="@+id/rbsaugat"
+             android:id="@+id/rdosaugat"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:layout_weight="1"
              android:text="Saugat"/>
 
-
-         <ImageView
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-
-             />
-     </LinearLayout>
+         </RadioGroup>
 
 
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
 
- </RadioGroup>
+
+
+
+
 
 </LinearLayout>
